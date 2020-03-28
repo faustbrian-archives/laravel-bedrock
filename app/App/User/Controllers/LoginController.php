@@ -2,9 +2,9 @@
 
 namespace App\User\Controllers;
 
-use Support\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Support\Http\Controllers\Controller;
 
 final class LoginController extends Controller
 {

@@ -2,9 +2,9 @@
 
 namespace App\User\Controllers;
 
-use Support\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\ConfirmsPasswords;
+use Support\Http\Controllers\Controller;
 
 final class ConfirmPasswordController extends Controller
 {

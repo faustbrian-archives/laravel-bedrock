@@ -4,13 +4,13 @@ namespace App\Http;
 
 use App\User\Middleware\Authenticate;
 use App\User\Middleware\RedirectIfAuthenticated;
+use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
+use Support\Http\Middleware\CheckForMaintenanceMode;
+use Support\Http\Middleware\EncryptCookies;
 use Support\Http\Middleware\TrimStrings;
 use Support\Http\Middleware\TrustProxies;
-use Support\Http\Middleware\EncryptCookies;
 use Support\Http\Middleware\VerifyCsrfToken;
-use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use Support\Http\Middleware\CheckForMaintenanceMode;
-use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 class Kernel extends HttpKernel
 {

@@ -2,12 +2,12 @@
 
 namespace App\User\Controllers;
 
-use Support\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Support\Http\Controllers\Controller;
 
 final class RegisterController extends Controller
 {
