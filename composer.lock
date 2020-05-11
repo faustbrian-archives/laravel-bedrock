@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d55156621dd34ccd75aa8787e7994833",
+    "content-hash": "35d28436cf9be8adf86ac3634abb71e5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -997,12 +997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/horizon.git",
-                "reference": "57067ff35730ae6432c2cc0997b33357bdf64de0"
+                "reference": "490f9bb97c71af87dd2e1412823f9f892bdaf9ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/horizon/zipball/57067ff35730ae6432c2cc0997b33357bdf64de0",
-                "reference": "57067ff35730ae6432c2cc0997b33357bdf64de0",
+                "url": "https://api.github.com/repos/laravel/horizon/zipball/490f9bb97c71af87dd2e1412823f9f892bdaf9ac",
+                "reference": "490f9bb97c71af87dd2e1412823f9f892bdaf9ac",
                 "shasum": ""
             },
             "require": {
